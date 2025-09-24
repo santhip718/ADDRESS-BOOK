@@ -1,0 +1,41 @@
+Name: SANTHIPKUMAR S
+
+Description:
+
+This project is an Address Book application written in C.
+It allows the user to:
+ - Create a new contact
+ - Search for an existing contact (by name, phone number, or email)
+ - Edit a contact’s details
+ - Delete a contact
+ - List all contacts with sorting options (by name, phone, email, or no sorting)
+ - Save contacts to a CSV file
+ - Load contacts from a CSV file when the program starts
+
+The program ensures input validation (for name, phone number, and email) and prevents duplicate phone numbers or emails.
+
+Sample Input and Output:
+
+1. Adding a contact
+  
+Input:
+Enter the details
+Name : John Doe
+Phone : 9876543210
+Email : john.doe@example.com
+
+Output:
+Contact saved successfully.
+
+2. Listing contacts (sorted by name)
+
+Input and Output:
+Address Book Menu:
+5
+
+Display the menu:
+1.Sort by name
+2.Sort by Mobile Number
+3.Sort by Email
+4.List all contacts
+Enter choice: 1/2/3/4
